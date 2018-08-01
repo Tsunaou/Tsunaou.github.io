@@ -1,0 +1,185 @@
+/* User共用 */
+/*----------上导航栏样式-------------*/
+#nav li{
+    min-width: 90px;
+    text-align: center;
+    border-top:3px solid transparent;
+    border-bottom:3px solid transparent;
+}
+
+#nav li a{
+    color: white;
+}
+
+#nav li:hover{
+    border-top:3px solid darkviolet;
+    border-bottom:3px solid darkviolet;
+}
+
+#nav li:hover a{
+    color:lightskyblue;
+}
+
+/*----------各个主模块样式-------------*/
+body{
+    background-color: #d8fcff;
+}
+
+#mainbody{
+    background-color: #d8fcff;/*和body的颜色保持相同（遇到了一些坑，用这个方法解决了一下）*/
+    margin: 0;
+    padding-right: 45px;
+    border: 0;
+}
+
+div.myspace{
+    /*个人中心*/
+    text-indent: 80px;
+    color: black;
+    background-color: white;
+    margin: 0px;
+    border: 0px;
+    padding: 5px;
+}
+
+/*----------左侧导航栏样式-------------*/
+div.leftsidenav{
+    /*position: fixed;
+    width: 15%;*/
+    z-index: 1;
+}
+
+#leftnav li{
+    margin: 0;
+    padding: 0;
+    min-width: 80px;
+    text-align: center;
+    background-color: white;
+}
+
+#leftnav li a{
+    color: black;
+}
+
+#leftnav li.active a{
+    color: white;
+    background-color: black;
+}
+
+#leftnav li a:hover{
+    background-color: black;
+}
+
+#leftnav li:hover a{
+    color:white;
+}
+
+
+/* User_Main && History使用 */
+/*----------用户信息查看-------------*/
+div.user_info{
+    text-align: left;
+    font-size: 18px;
+}
+
+/*----------折叠组合效果-------------*/
+a:hover,a:focus{
+    /*链接被点击时候没有下划线等装饰*/
+    text-decoration: none;
+    outline: none;
+}
+
+#accordion .panel{
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+    margin-top: 0;
+}
+#accordion .panel-heading{
+    padding: 0;
+    border-radius: 0;
+    border: none;
+}
+#accordion .panel-title a{
+    /*展开时*/
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    padding: 15px 48px 15px 20px;
+    background: whitesmoke;
+    position: relative;
+    transition: all 0.3s ease 0s;
+}
+#accordion .panel-title a.collapsed{
+    /*折叠时*/
+    color: black;
+    background: gainsboro;
+    border-bottom: 1px solid black;
+}
+#accordion .panel-title a:after,
+#accordion .panel-title a.collapsed:after{
+    content: "";
+    display: block;
+    width: 3px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 30px;
+    background: white;
+}
+#accordion .panel-title a.collapsed:after{
+    background: black;
+}
+#accordion .panel-title a:before,
+#accordion .panel-title a.collapsed:before{
+    content: "\f068";
+    font-family: FontAwesome;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    border-radius: 50%;
+    background: white;
+    position: absolute;
+    top: 12px;
+    right: 19px;
+    font-size: 14px;
+    color: black;
+    text-align: center;
+    z-index: 1;
+}
+#accordion .panel-title a.collapsed:before{
+    /*折叠起来的样式*/
+    content: "\f067";
+    color: black;
+    background: white;
+}
+#accordion .panel-body {
+    /*内容*/
+    background: white;
+    color: black;
+    padding: 20px 50px 15px 20px;
+    line-height: 25px;
+    border: none;
+    position: relative;
+}
+
+/* User_Favorite && Recendtly && Check使用 */
+/*----------主界面样式-------------*/
+#mainpanel .panel-heading
+{
+    background-color: whitesmoke;
+    height: 50px;
+}
+
+#mainpanel .panel-title
+{
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    background: whitesmoke;
+    padding-left: 5px;
+    padding-top: 5px;
+    position: relative;
+}
