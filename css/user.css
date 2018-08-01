@@ -47,6 +47,7 @@ div.leftsidenav{
     /*position: fixed;
     width: 15%;*/
     z-index: 1;
+    text-align: center;
 }
 
 #leftnav li{
@@ -209,5 +210,5 @@ a:hover,a:focus{
 #maincontext {
     margin-left: 2em;
     margin-right: 2em;
-    height: 500px;
+    height: max-content;
 }
