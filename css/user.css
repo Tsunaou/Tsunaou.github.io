@@ -74,6 +74,28 @@ div.leftsidenav{
     color:white;
 }
 
+#left_sub_nav li{
+    margin: 0;
+    padding: 0;
+    min-width: 80px;
+    text-align: center;
+    background-color: snow;
+}
+
+#left_sub_nav li a{
+    color: black;
+}
+
+#left_sub_nav .active a{
+    color: darkviolet;
+}
+
+#left_sub_nav li a:hover{
+    color:darkviolet;
+}
+
+
+
 
 /* User_Main && History使用 */
 /*----------用户信息查看-------------*/
@@ -182,4 +204,10 @@ a:hover,a:focus{
     padding-left: 5px;
     padding-top: 5px;
     position: relative;
+}
+
+#maincontext {
+    margin-left: 2em;
+    margin-right: 2em;
+    height: 500px;
 }
