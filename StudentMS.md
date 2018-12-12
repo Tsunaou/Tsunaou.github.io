@@ -19,8 +19,9 @@
 由于PDF不能显示GIF动图，因此可以点击 [Tsunaou的学生信息管理系统](https://tsunaou.github.io/StudentMS.html)查看更多详情
 
 <div>
-    <img src="image/0.png"/>
+    <img src="image/01.png"/>
 </div>
+
 
 ### 2.基本功能
 
@@ -55,8 +56,9 @@
 | StyleSelector   | 样式选择器，提供修改样式的接口                               |
 
 <div>
-    <img src="image/1.png"/>
+    <img src="image/02.png"/>
 </div>
+
 
 
 
