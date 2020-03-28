@@ -38,7 +38,7 @@ ssh njucs@120.78.76.94
 若成功登陆，你会看到这样一个画面：
 
 <div>
-    <img src="images/login.png">
+    <img src="https://tsunaou.github.io/linux_guide/images/login.png">
 </div>
 
 然后你就可以开始愉快的Linux探索之旅了（温馨提示，用用`tab`键可以自动补全，在我配置的这个服务器上，尝试方向键`↑`说不定也有奇效哟）
@@ -78,7 +78,7 @@ cd guide
 这个时候你可能会注意到shell里有一个`~/guide`
 
 <div>
-    <img src="images/2.png">
+    <img src="https://tsunaou.github.io/linux_guide/images/2.png">
 </div>
 
 实际上，在linux中对于目录有一些特别的记号：
@@ -151,7 +151,7 @@ tree
 ```
 
 <div>
-    <img src="images/3.png">
+    <img src="https://tsunaou.github.io/linux_guide/images/3.png">
 </div>
 
 可以注意到，`hiworld.cpp`被移动到目录`folder`中了。`tree`命令的结果其实也给我们展示了Linux下的文件目录实际上也是一种树结构（相信学过计构（~~被计构折磨过~~）的小伙伴们都知道）。
@@ -173,7 +173,7 @@ man mv
 可以看到如下结果。只要能看到英文，很多时候一些命令的用法就会无师自通，是一个很强的工具。键入`q`即可退出。
 
 <div>
-    <img src="images/4.png">
+    <img src="https://tsunaou.github.io/linux_guide/images/4.png">
 </div>
 
 #### 删除文件
@@ -201,7 +201,7 @@ man cp
 可以看到其实就是递归（~~递归可不止应用在汉诺塔和斐波那契~~）复制的意思。
 
 <div>
-    <img src="images/5.png">
+    <img src="https://tsunaou.github.io/linux_guide/images/5.png">
 </div>
 
 于是输入如下命令，即可成功复制，然后就可以愉快地删除了。
@@ -257,7 +257,7 @@ cat hello_world.cpp
 ```
 
 <div>
-    <img src="images/6.png">
+    <img src="https://tsunaou.github.io/linux_guide/images/6.png">
 </div>
 
 可以看到hello world的程序编写完毕。
@@ -305,7 +305,7 @@ g++ hello_world.cpp -o hello
 即可看到屏幕打印出了Hello World
 
 <div>
-    <img src="images/7.png">
+    <img src="https://tsunaou.github.io/linux_guide/images/7.png">
 </div>
 
 实际gcc/g++的使用有更多细节，由于本教程只是一个入门教程，这里不多赘述。
